@@ -1,6 +1,6 @@
 
 const getProducts = () => {
-    return [{ id: 101, name: "Laptop", price: 1200 }];
+    return [{ id: 34, name: "tablet", price: 980 }];
 };
 
 module.exports = { getProducts };
