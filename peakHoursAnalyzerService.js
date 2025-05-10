@@ -1,6 +1,6 @@
 
 const analyzeTraffic = () => {
-    return "Peak hours analysis complete!";
+    return "Peak hours  ";
 };
 
 module.exports = { analyzeTraffic };
