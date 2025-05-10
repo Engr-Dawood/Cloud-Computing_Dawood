@@ -1,5 +1,5 @@
 const getUsers = () => {
-    return [{ id: 1, name: "John Doe" }];
+    return [{ id: 34, name: "XYZ" }];
 };
 
 module.exports = { getUsers };
