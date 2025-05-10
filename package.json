@@ -1,25 +1,25 @@
 {
-  "name": "monolithic-ecs-microservices",
+  "name": "Cloud A1",
   "version": "1.0.0",
-  "description": "Node.js monolithic app with 5 services",
+  "description": "Cloud A1",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mahnoorfiaz2025/monolithic-ecs-microservices.git"
+    "url": "https://github.com/Engr-Dawood/Cloud-Computing_Dawood"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mahnoorfiaz2025/monolithic-ecs-microservices/issues"
+    "url": "https://github.com/Engr-Dawood/Cloud-Computing_Dawood"
   },
-  "homepage": "https://github.com/mahnoorfiaz2025/monolithic-ecs-microservices#readme",
+  "homepage": "https://github.com/Engr-Dawood/Cloud-Computing_Dawood",
   "dependencies": {
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.7",
-    "express": "^4.21.2"
+    "cors": "^2.1.5",
+    "dotenv": "^15.5.8",
+    "express": "^4.6.2"
   }
 }
