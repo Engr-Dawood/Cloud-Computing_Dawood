@@ -169,8 +169,8 @@ exports.analyzeTraffic = (req, res) => {
 exports.getUsers = () => {
   // Implementation of getUsers
   return [
-    { id: 1, name: 'User 1' },
-    { id: 2, name: 'User 2' }
+    { id: 1, name: 'User 2' },
+    { id: 2, name: 'User 6' }
   ];
 };
 
@@ -180,8 +180,8 @@ exports.getUsers = () => {
 exports.getProducts = () => {
   // Implementation of getProducts
   return [
-    { id: 1, name: 'Product 1', price: 99.99 },
-    { id: 2, name: 'Product 2', price: 149.99 }
+    { id: 1, name: 'Product 9', price: 120 },
+    { id: 2, name: 'Product 1', price: 114 }
   ];
 };
 
@@ -191,8 +191,8 @@ exports.getProducts = () => {
 exports.getOrders = () => {
   // Implementation of getOrders
   return [
-    { id: 1, userId: 1, products: [1, 2], total: 249.98 },
-    { id: 2, userId: 2, products: [1], total: 99.99 }
+    { id: 34, userId: 12, products: [7, 8], total: 2500 },
+    { id: 37, userId: 16, products: [4,6], total: 2900 }
   ];
 };
 
@@ -211,8 +211,8 @@ exports.sendNotification = (message) => {
 exports.analyzeTraffic = () => {
   // Implementation of analyzeTraffic
   return {
-    peakHours: ['9:00 AM - 11:00 AM', '1:00 PM - 3:00 PM'],
-    averageUsers: 1250,
-    recommendations: 'Consider scaling during peak hours.'
+    peakHours: ['7:00 AM - 10:00 pm', '11:00 PM - 12:00 AM'],
+    averageUsers: 1200,
+    recommendations: 'Consider scaling .'
   };
 };
